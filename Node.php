@@ -2,9 +2,9 @@
 
 class Node
 {
-    private $prev;
-    private $next;
-    private $data;
+    private $prev = null;
+    private $next = null;
+    private $data = null;
     
     public function __construct($data = null)
     {
